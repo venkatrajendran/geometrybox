@@ -1,0 +1,45 @@
+body{
+    font-size: 14px;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #fffefe;
+}
+
+/**** Dimension Components****/
+
+/*****************************/
+
+/**** Header Components****/
+
+.logo{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Martel Sans', sans-serif;
+}
+.btn-header{
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    line-height: 2.3;
+    border: 1px solid #dcdbdb;
+    background-color: transparent;
+    padding: 0.25rem 1.5rem;
+    color: #757171;
+}
+.btn-header:hover{
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    box-shadow: 0 0px 0 rgb(236, 236, 236);
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    -o-transition: all 0s ease;
+    transition: all 0s ease;
+}
+.jumbotron{
+    background-color: #fffefe;
+    font-family: 'Roboto Slab', serif;
+}
+/*****************************/
+
