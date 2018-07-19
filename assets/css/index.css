@@ -1,20 +1,29 @@
 body{
     font-size: 14px;
-    font-family: 'Martel Sans', sans-serif;
-    background-color: #fffefe;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: #fdfdfd;
+    color: #676666;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    font-weight: 500!important;
+    color: #616060!important;
+    font-family: 'Montserrat', sans-serif;
+}
 /**** Dimension Components****/
-
+.pl-6 {
+    padding-left: 4.25rem!important;
+    font-family: 'Montserrat', sans-serif;
+}
 /*****************************/
 
 /**** Header Components****/
 
 .logo{
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 900;
-    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .btn-header{
     margin-right: 1rem;
@@ -38,8 +47,85 @@ body{
     transition: all 0s ease;
 }
 .jumbotron{
-    background-color: #fffefe;
-    font-family: 'Roboto Slab', serif;
+    background-color: #fdfdfd;
+    font-family: 'Scope One', serif;
+    padding: 2.5rem 2.5rem 3rem!important;
 }
 /*****************************/
 
+/**** Banner Components ****/
+.pull-down{
+    height: 80px;
+    width: 6%;
+    background-color: #8cade2;
+    border-radius: 50%;
+    color: white;
+    margin-left: 47%;
+    -webkit-animation: jump 1.5s ease 0s infinite normal ;
+    animation: jump 1.5s ease 0s infinite normal ;
+}
+.pull-down>i{
+    font-size: 4.5rem;
+    margin: 0.4rem 0.6rem 0rem 1rem;
+}
+
+
+/*****************************/
+
+
+/**** Effects ****/
+@-webkit-keyframes jump {
+  0%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  20%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  40%{
+	-webkit-transform: translateY(-30px);
+	transform: translateY(-30px);
+  }
+  50%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  60%{
+	-webkit-transform: translateY(-15px);
+	transform: translateY(-15px);
+  }
+  80%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  100%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+}
+
+@keyframes jump {
+  0%{
+	transform: translateY(0);
+  }
+  20%{
+	transform: translateY(0);
+  }
+  40%{
+	transform: translateY(-30px);
+  }
+  50%{
+	transform: translateY(0);
+  }
+  60%{
+	transform: translateY(-15px);
+  }
+  80%{
+	transform: translateY(0);
+  }
+  100%{
+	transform: translateY(0);
+  }
+}
+/*****************************/
