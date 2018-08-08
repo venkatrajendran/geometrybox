@@ -1,8 +1,13 @@
 body{
-    font-size: 14px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    background-color: #fdfdfd;
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    background-color:#ffffff;
     color: #676666;
+    position: relative;
+}
+
+.img{
+    width:100%
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
@@ -15,23 +20,53 @@ body{
     padding-left: 4.25rem!important;
     font-family: 'Montserrat', sans-serif;
 }
+
+.font-desc{
+    font-size: 0.85rem;
+}
+
+.ht-20{
+     height: 20%;
+}
+
+.flex{
+    display: flex!important;
+}
+
 /*****************************/
 
 /**** Header Components****/
 
 .logo{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 30px;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
 }
+.app-link{
+    margin:0.35rem;
+    cursor: pointer;
+}
+.box{
+    color: #ea8bd5;
+    background: linear-gradient(to right, #bc30cc 5% ,#b220b9);
+    background-color: linear-gradient( #fdfdfd, #f1f1ed 55%, #fdfdfd);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.geometry{
+    background: linear-gradient(to right,#bcdfff , #539cea 2%, #c229ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .btn-header{
-    margin-right: 1rem;
-    font-size: 0.9rem;
-    line-height: 2.3;
+    font-size: 0.75rem;
+    line-height: 1.9;
     border: 1px solid #dcdbdb;
     background-color: transparent;
-    padding: 0.25rem 1.5rem;
     color: #757171;
 }
 .btn-header:hover{
@@ -45,12 +80,31 @@ body{
     -moz-transition: all 0s ease;
     -o-transition: all 0s ease;
     transition: all 0s ease;
+    background-color: #eaeaea;
+    border-color: #eaeaea;
 }
 .jumbotron{
-    background: linear-gradient( #fdfdfd, #f1f1ed 55%, #fdfdfd);
+    /* background: linear-gradient( #fdfdfd, #f1f1ed 55%, #fdfdfd); */
     font-family: 'Scope One', serif;
-    padding: 2.5rem 2.5rem 3rem!important;
-    margin-bottom:1rem;
+    padding: 2.5rem 2.5rem 1rem!important;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    display: flex;
+}
+/*****************************/
+
+/**** Description Components ******/
+
+.desc-content{
+    padding-left: 9rem;
+    padding-right: 10rem;
+}
+.special {
+    color: #67d385;
+    font-size: 2rem;
+}
+.desc{
+   /* background-color: #f5f5f5;*/
 }
 /*****************************/
 
@@ -58,7 +112,7 @@ body{
 .pull-down{
     height: 80px;
     width: 6%;
-    background-color: #8cade2;
+    background-color: #64f3ae;
     border-radius: 50%;
     color: white;
     margin-left: 40rem;
@@ -69,10 +123,87 @@ body{
     font-size: 4.5rem;
     margin: 0.4rem 0.6rem 0rem 1rem;
 }
-
-
+.pull-down:hover{
+    cursor:pointer;
+}
+.banner-img{
+    height: 25rem;
+}
+.pull-link{
+    font-size: 5rem;
+    color: white;
+    padding: 1rem 0rem 1rem 0.9rem;
+    line-height: 5rem;
+}
+.pull-link:hover{
+    color: white;
+}
 /*****************************/
 
+/**** Product Components ****/
+
+.product-row{
+    display: flex;
+    padding-top: 2rem;
+    background: linear-gradient(to right, #07ec783b , #59fbad );
+}
+
+.prod-content{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+.product-row:hover{
+    cursor: pointer;
+}
+
+.prod:hover{
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    transform: scale(1.05);
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease; 
+}
+
+.prod-desc{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+.prod-link{
+    padding: 0 0 0 0.7rem;
+    font-size: 2.3rem;
+}
+
+.web-dev{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.shadow{
+    background-color: #c1ddf7;
+    height: 0.35rem;
+    width: 5.8rem;
+    margin: 0 1rem 0 1.9rem;
+    border-radius: 25rem / 30px;
+}
+.link{
+    color: #5f3caf!important;
+}
+.link:hover{
+   cursor: pointer;
+    text-decoration: underline!important;
+}
+
+.embed{
+    padding: 4rem 5rem 2rem 5rem;
+}
+/*****************************/
 
 /**** Effects ****/
 @-webkit-keyframes jump {
