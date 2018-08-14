@@ -107,8 +107,6 @@ img.app-link{
     border-color: #eaeaea;
 }
 .jumbotron{
-    /* background: linear-gradient( #fdfdfd, #f1f1ed 55%, #fdfdfd); */
-    font-family: 'Scope One', serif;
     padding: 0.5rem 0 0rem!important;
     margin-bottom: 0rem;
     background-color: #ffffff;
@@ -173,8 +171,7 @@ img.app-link{
 /**** Product Components ****/
 
 .product-row{
-    display: flex;
-    padding-top: 2rem;
+    padding-top: 1rem;
     background:linear-gradient(to right, #dddde9 ,#ececec , #ffffff 50%);
 }
 
@@ -183,15 +180,20 @@ img.app-link{
 }
 
 .prod-content{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding-top: 2rem;
 }
 
 .product-row:hover{
     cursor: pointer;
+}
+
+.arrow{
+    font-size: 2.5rem;
+    margin: 1rem 0 0 0; 
+}
+
+.prod{
+    display: flex!important;
+    margin: 1rem;
 }
 
 .prod:hover{
@@ -265,7 +267,10 @@ img.app-link{
     border: none;
     background-color: transparent!important;
 }
-
+.video-js {
+    width: 85rem!important;
+    height: 35rem!important;
+}
 /*****************************/
 
 /**** Effects ****/
