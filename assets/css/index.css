@@ -218,8 +218,9 @@ img.app-link{
 }
 
 .product-img{
-     background: url(../img/product-vec.png);
+    background: url(../img/product-vec.png);
     background-repeat: no-repeat;
+    background-position-y: 5rem;
 }
 
 .web-dev{
@@ -230,7 +231,7 @@ img.app-link{
     background-color: #c1ddf7;
     height: 0.35rem;
     width: 5.8rem;
-    margin: 0 1rem 0 1.9rem;
+    margin: 0 1rem 0 1.5rem;
     border-radius: 25rem / 30px;
 }
 .link{
@@ -262,7 +263,7 @@ img.app-link{
 }
 .video-js .vjs-big-play-button{
     background-repeat: no-repeat;
-    margin: 14rem 38.5rem;
+    margin:13rem 37.8rem;
     font-size: 4em;
     border: none;
     background-color: transparent!important;
