@@ -23,13 +23,20 @@
 </head>
 <body>
     <section class="container-fluid">
-        <section class="row logo pl-5 pr-5">
-                <section class="col-md-3 pt-3"><img src="assets/img/logo.png" srcset="img/logo@2x.png 2x,
-             img/logo@3x.png 3x"></section>
-                <section class="col-md-9 text-right"><img class="app-link" src="assets/img/gplay.png" srcset="img/gplay@2x.png 2x,
-             img/gplay@3x.png 3x"><img class="app-link" src="assets/img/appstore.png" srcset="img/appstore@2x.png 2x,
-             img/appstore@3x.png 3x"> <button class="btn btn-header app-link">DOWNLOAD CATALOG</button></section>
-        </section>
+        <section class="navigation row logo pl-5 pr-5 mt-0">
+            <section class="col-md-3 pt-3">
+               <img src="assets/img/logo.png" srcset="img/logo@2x.png 2x,
+               img/logo@3x.png 3x">
+            </section>
+            <section class="col-md-9 text-right">
+               <img class="app-link" src="assets/img/gplay.png" srcset="img/gplay@2x.png 2x,
+               img/gplay@3x.png 3x">
+               <img class="app-link" src="assets/img/appstore.png" srcset="img/appstore@2x.png 2x,
+               img/appstore@3x.png 3x"> 
+               <a href="#products" class="ps-link">Products</a>
+               <a href="#services" class="ps-link">Services</a>
+               <button class="btn btn-header app-link">DOWNLOAD CATALOG</button></section>
+         </section>
         <section class="row pt-4 mb-2 pl-5 pr-5">   
                 <div class="jumbotron jumbotron-fluid">
                   <div class="col-md-7 text-center pt-4">
@@ -49,7 +56,7 @@
                 </section>
             </section>
         </section>
-        <section class="row m-3 pl-5 pr-5">
+        <section id="products" class="row m-3 pl-5 pr-5">
             <section class="col-md-12 mb-3">
                 <h4 class="prod-heading text-center">PRODUCTS</h4>
                 <section class="border"></section>
@@ -100,7 +107,7 @@
                 </section>
             </section>
         </section>
-        <section class="row m-3 pl-5 pr-5">
+        <section id="services" class="row m-3 pl-5 pr-5">
             <section class="col-md-12 mb-3 mt-4">
                  <h4 class="prod-heading text-center">SERVICES</h4>
                 <section class="border"></section>
@@ -135,4 +142,15 @@
         </section>
     </section>
 <footer></footer>
+<script>
+    $(document).ready(function(){
+      $(window).scroll(function() {
+        if ($(document).scrollTop() > 400) {
+          $(".navigation").addClass("sticky");
+        } else {
+          $(".navigation").removeClass("sticky");
+        }
+      });
+    });
+    </script>
 </body></html>

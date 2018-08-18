@@ -332,3 +332,38 @@ img.app-link{
   }
 }
 /*****************************/
+
+
+.navigation {
+    padding: 10px 0px;
+     -webkit-transition: position 20s;
+     -moz-transition: position 20s;
+     -ms-transition: position 20s;
+     -o-transition: position 20s;
+     transition: position 20s;
+   }
+   
+   .sticky {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 1234;
+     background: white;
+     border-bottom: 1px solid #ececec94;
+     padding: 3px 0px;
+   }
+   .ps-link{
+     font-size: 12px;
+     color: black;
+     padding: 10px 19px;
+     text-decoration: none;
+     border: 0px;
+     text-transform: uppercase;
+     font-weight: 100;
+     cursor: pointer;
+     
+   }
+   .ps-link:hover{
+       color: red;
+       text-decoration: none;
+   }
