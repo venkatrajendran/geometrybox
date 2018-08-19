@@ -23,21 +23,21 @@
 </head>
 <body>
     <section class="container-fluid">
-        <section class="navigation row logo pl-5 pr-5 mt-0">
+        <section class="navigation fixed-top row logo pl-5 pr-5 mt-0">
             <section class="col-md-3 pt-3">
                <img src="assets/img/logo.png" srcset="img/logo@2x.png 2x,
                img/logo@3x.png 3x">
             </section>
             <section class="col-md-9 text-right">
+                <a href="#products" class="ps-link">Products</a>
+                <a href="#services" class="ps-link">Services</a>
                <img class="app-link" src="assets/img/gplay.png" srcset="img/gplay@2x.png 2x,
                img/gplay@3x.png 3x">
                <img class="app-link" src="assets/img/appstore.png" srcset="img/appstore@2x.png 2x,
                img/appstore@3x.png 3x"> 
-               <a href="#products" class="ps-link">Products</a>
-               <a href="#services" class="ps-link">Services</a>
                <button class="btn btn-header app-link">DOWNLOAD CATALOG</button></section>
          </section>
-        <section class="row pt-4 mb-2 pl-5 pr-5">   
+        <section class="row pt-4 mb-2 mt-5 pl-5 pr-5">   
                 <div class="jumbotron jumbotron-fluid">
                   <div class="col-md-7 text-center pt-4">
                     <h1>EXPLORE THE SMART SCHOOL MANAGEMENT</h1>
@@ -145,7 +145,7 @@
 <script>
     $(document).ready(function(){
       $(window).scroll(function() {
-        if ($(document).scrollTop() > 400) {
+        if ($(document).scrollTop() > 30) {
           $(".navigation").addClass("sticky");
         } else {
           $(".navigation").removeClass("sticky");
