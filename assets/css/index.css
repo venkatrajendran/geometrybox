@@ -24,7 +24,9 @@ body{
 .font-desc{
     font-size: 0.85rem;
 }
-
+.font-3{
+    font-size:3rem;
+}
 .ht-20{
      height: 20%;
 }
@@ -155,7 +157,7 @@ img.app-link{
     cursor:pointer;
 }
 .banner-img{
-    height: 21.5rem;
+    height: 22.5rem;
 }
 .pull-link{
     font-size: 5rem;
