@@ -336,11 +336,11 @@ img.app-link{
 
 .navigation {
     padding: 10px 0px;
-    -webkit-transition: padding 1s;
-    -moz-transition: padding 1s;
-    -ms-transition: padding 1s;
-    -o-transition: padding 1s;
-    transition: padding 1s;
+    -webkit-transition: padding .2s;
+    -moz-transition: padding .2s;
+    -ms-transition: padding .2s;
+    -o-transition: padding .2s;
+    transition: padding .2s;
     background: white;
    }
    

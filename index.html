@@ -10,6 +10,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link href="https://vjs.zencdn.net/7.1.0/video-js.css" rel="stylesheet">
+       <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+ 
 
   <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
   <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
@@ -146,9 +149,9 @@
     $(document).ready(function(){
       $(window).scroll(function() {
         if ($(document).scrollTop() >100) {
-          $(".navigation").addClass("sticky fixed-top");
+          $(".navigation").addClass("sticky fixed-top animated bounce delay-2s");
         } else {
-          $(".navigation").removeClass("sticky fixed-top");
+          $(".navigation").removeClass("sticky fixed-top animated bounce delay-2s");
         }
       });
     });
