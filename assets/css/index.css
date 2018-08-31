@@ -336,12 +336,11 @@ img.app-link{
 
 .navigation {
     padding: 10px 0px;
-    width: 100vw;
-    -webkit-transition: padding 20s;
-    -moz-transition: padding 20s;
-    -ms-transition: padding 20s;
-    -o-transition: padding 20s;
-    transition: padding .4s;
+    -webkit-transition: padding 1s;
+    -moz-transition: padding 1s;
+    -ms-transition: padding 1s;
+    -o-transition: padding 1s;
+    transition: padding 1s;
     background: white;
    }
    
@@ -352,7 +351,7 @@ img.app-link{
      padding: 3px 0px;
    }
    .ps-link{
-    font-size: .75rem;
+    font-size: .85rem;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;

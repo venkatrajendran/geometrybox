@@ -23,7 +23,7 @@
 </head>
 <body>
     <section class="container-fluid">
-        <section class="navigation fixed-top row logo pl-5 pr-5 mt-0">
+        <section class="navigation row logo pl-5 pr-5 mt-0">
             <section class="col-md-3 pt-3">
                <img src="assets/img/logo.png" srcset="img/logo@2x.png 2x,
                img/logo@3x.png 3x">
@@ -145,10 +145,10 @@
 <script>
     $(document).ready(function(){
       $(window).scroll(function() {
-        if ($(document).scrollTop() > 30) {
-          $(".navigation").addClass("sticky");
+        if ($(document).scrollTop() >100) {
+          $(".navigation").addClass("sticky fixed-top");
         } else {
-          $(".navigation").removeClass("sticky");
+          $(".navigation").removeClass("sticky fixed-top");
         }
       });
     });
